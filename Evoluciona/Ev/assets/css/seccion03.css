@@ -1,0 +1,21 @@
+hr{
+  width:100%;
+  size: 0.5em;
+  margin: 0px auto;
+  background: #c3311a;
+  
+}
+
+.texto-sub{
+	color: #424141;
+	font-weight: 800;
+	font-size: 18px;
+	text-align: center;
+}
+
+.texto-normal{ /**/
+	color: #424141;
+	font-size: 17px;
+	text-align: justify; 
+	margin-left:1%;
+}

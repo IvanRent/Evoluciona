@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Evoluciona</title>
+		<!-- ************** ARCHIVOS CSS ***************************** -->
+		<link rel="stylesheet" href="assets/css/contenido.css">
+    <link rel="stylesheet" href="assets/css/seccion05.css">
+		<link rel="stylesheet" href="assets/css/menu.css" />
+            <link rel="stylesheet" href="assets/css/pie.css" />
+		<link rel="stylesheet" href="assets/css/banner.css" />
+		<link rel="stylesheet" href="assets/css/loader.css" />
+            <link rel="stylesheet" href="assets/css/font-awesome.css">
+		<!--**********************************************************-->
+		<link rel="icon" href="images/Allin.png">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="assets/js/menu.js"></script>
+          <!--  <script type="text/javascript">
+                  document.oncontextmenu = function(){return false;}
+            </script>-->
+	</head>
+	<body>	
+		<!--<div class="loader"></div>-->
+		<div class="header">
+      <div class="top-header">
+        <div class="contenedor">
+          <nav>
+            <div class="cont-main">
+              <a href="index.html#inicio"><img src="images/Allin.png"></a>
+              <a class="boton_donar" href="donar.html">DONAR</a>
+            </div>						
+
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <div class="dropdown">
+                  <a href="quienes-somos.html">
+                    <button class="dropbtn" onclick="closeNav()">¿Quienes somos?</button>
+                  </a>
+                  <!-- <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>-->
+                </div>
+                <div class="dropdown">
+                  <a href="que-apoyamos.html">
+                    <button class="dropbtn" onclick="closeNav()">¿Qué apoyamos?</button>
+                  </a>
+                </div>  
+                <div class="dropdown">
+                  <a href="enterate.html">
+                    <button class="dropbtn" onclick="closeNav()">Noticias</button>
+                  </a>
+                </div>  
+                <div class="dropdown">
+                  <a href="suscripcion.html">
+                    <button class="dropbtn" onclick="closeNav()">Suscribirse</button>
+                  </a>
+                </div>  
+                <div class="dropdown">
+                  <a href="contacto.html">
+                   <button class="dropbtn" onclick="closeNav()">Contacto</button>
+                  </a>
+                </div> 
+                <div class="dropdown">
+                  <a href="donar.html">
+                    <button class="dropbtn" onclick="closeNav()">Donar</button>
+                  </a>
+                </div>  
+              </div>
+            </div>
+            <span class="lineas" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+          </nav>
+        </div>
+      </div>
+
+			<div class="titulo-blog">
+        		<div class="contenedor">
+          			<!--Puede o no ir código-->
+        		</div>
+      		</div>
+		</div>
+		
+		<div class="main">
+  		<div class="blog">
+  			<div class="contenedor">
+  				<div class="seccion-noticias"> <!--Inicio seccion principal-->
+  					<div class="articulo" > <!--Inicio apartado redes sociales, seccion principal-->
+  						<table class="c-contacto"> <!--Tabla para los widgets-->
+  							<tr>
+                  <th id="c-usuario">
+                    <form action="enviar.php" method="post" class="form_contact">
+                      <br>
+                      <div class="user_info">
+                          <label for="name">Nombre *</label><br>
+                          <input type="text" id="names" name="nombre" required>
+                          <br>
+                          <label for="phone">Telefono / Celular</label><br>
+                          <input type="text" id="phone" name="telefono">
+                          <br>
+                          <label for="email">Correo electronico *</label><br>
+                          <input type="text" id="email" name="correo" required>
+                          <br>
+                          <label for="message">Mensaje *</label><br>
+                          <textarea id="mensaje" name="message" required></textarea>
+                          <br>
+                          <input type="submit" value="Enviar Mensaje" id="btnSend">
+                      </div>
+                    </form>
+                  </th>
+                  <th id="c-datos">
+                    <section class="caja-principal">
+                      <section id="d-principal">
+                        <div id="telefono">##########</div>
+                        <div>
+                          <a href="mailto:contacto@evoluciona.org" target="_blank" id="correo">contacto@evoluciona.com</a>
+                        </div>
+                      </section>
+                      <section id="redes">
+                        <table class="c-redes">
+                          <tr>
+                            <th>
+                              <ul>
+                                <li><a href="https://www.facebook.com" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                              </ul>
+                            </th>
+                            <th>
+                              <ul>
+                                <li><a href="https://twitter.com" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                              </ul>
+                            </th>
+                            <th>
+                              <ul>
+                                <li><a href="https://www.instagram.com" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                              </ul>
+                            </th>
+                          </tr>
+                        </table>
+                      </section>
+                      <section class="c-direccion">
+                        <div id="direc">
+                          <p><a href="https://www.google.com/maps" target="_blank">Calle ???? #?, CP.#####<br>Toluca, Estado de México </a></p>
+                        </div>
+                        <div id="mapa">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15064.052521232594!2d-99.673119!3d19.2817952!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1547753468982" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                      </section>
+                    </section>
+                  </th>                                
+                </tr>
+  						</table>
+  					</div> <!--Fin apartado redes sociales, seccion principal-->
+  				</div> <!--Fin seccion principal-->
+  			</div>
+  		</div>
+		</div>
+
+		<div class="footer">
+			<p>2019 (C) Todos los derechos reservados</p>
+		</div>
+	</body>
+</html>

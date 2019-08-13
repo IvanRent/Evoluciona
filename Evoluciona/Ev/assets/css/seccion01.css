@@ -1,0 +1,18 @@
+.caja-informacion{
+	width: 100%;
+	padding: 1%;
+	margin-left: 3%;
+	margin-right: 2%;
+	text-align: justify;
+}
+
+.texto-sub{
+	color: #424141;
+	font-weight: 800;
+	font-size: 18px;
+}
+
+.texto-normal{
+	color: #424141;
+	font-size: 17px;
+}

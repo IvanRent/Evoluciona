@@ -1,0 +1,145 @@
+hr{
+  width:100%;
+  size: 0.5em;
+  margin: 0px auto;
+  background: #c3311a;
+  
+}
+
+.autor{
+	color: #424141;
+	font-weight: 800;
+	font-size: 18px;
+	text-align: center;
+}
+
+.texto-sub{
+	color: #424141;
+	font-weight: 800;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 8%;
+	margin-top: 2%;
+}
+
+.texto-normal{ /**/
+	color: #424141;
+	font-size: 17px;
+	text-align: justify; 
+	margin-right: 1%;
+}
+
+.articulo .tab-donar{
+	top: 0px;
+}
+
+.tab-donar{
+	width: 100%;
+	margin: 1%;
+	padding: 2%;
+	border-collapse: collapse;
+	border-top: 2px hidden;
+	border-bottom: 2px hidden;
+	text-align: left;
+	margin-top: 20%;
+}
+
+.tab-donar tr{
+	border-left: 1px hidden;
+	border-right: 1px hidden;
+}
+
+.tab-donar th{
+	border:1px solid #000;
+	padding: 1%;
+}
+
+.tab-donar .donar-msj{
+	width: 30%;
+	text-align: left;
+	padding: 1%
+}
+
+.tab-donar .donar-monto{
+	width: 70%;
+	text-align: left;
+	padding: 1%;
+	margin-left: 1%;
+}
+
+.tab-monto{
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 2px solid #c3311a;
+	border-bottom: 2px solid #c3311a;
+	text-align: left;
+}
+
+.tab-monto tr{
+	border-left: 2px solid #c3311a;
+	border-right: 2px solid #c3311a;
+}
+
+.tab-monto th{
+	border:0px solid #c3311a; /*cambiar a 0px para quitar los bordes internos*/
+}
+
+.monto{
+	width: 100%;
+	border-top: 0px solid #363940;
+	border-bottom: 0px solid #363940;
+	text-align: left;
+}
+
+.monto tr{
+	border-left: 2px solid #363940;
+	border-right: 2px solid #363940;
+}
+
+.monto th{
+	border:2px solid #363940;
+	width: 25%;
+	color: #363940;
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+th .cantidad{
+	width:90%;
+	font-size: 18px;
+	color: #363940;
+	margin:1%;
+}
+
+.monto tr th a{
+	text-decoration: none;
+	color: #363940;
+}
+
+.monto tr th a:hover{
+	font-size: 19px;
+}
+
+.btn-donar{
+  width: 90%;
+  padding: 20%; /*ancho del boton*/
+  margin: 2px auto;
+  background: #fff;
+  border-radius: 6px;
+  border: 4px solid #E5E7E9;
+  margin-left: 60px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn-donar a{
+   color: #c3311a;
+}
+
+.btn-donar:hover{
+  background: rgba(229,231,233,0.85);
+  color:#fff;
+}
